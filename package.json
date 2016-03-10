@@ -23,9 +23,7 @@
     "eslint-plugin-react": "4.x",
     "pre-commit": "1.x"
   },
-  "pre-commit": [
-    "lint"
-  ],
+  "pre-commit": [],
   "scripts": {
     "start": "npm run dev",
     "dev": "dora -p 8001 --plugins webpack,proxy,hmr,livereload?enableJs=false",
