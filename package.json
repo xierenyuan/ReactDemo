@@ -2,26 +2,27 @@
   "name": "antd-demo",
   "version": "1.0.0",
   "entry": {
-    "index": "./src/entry/index.jsx",
-    "from": "./src/entry/form.jsx"
+    "index": "./src/entry/index.jsx"
   },
   "dependencies": {
     "antd": "0.12.x",
     "atool-build": "0.6.x",
     "babel-plugin-antd": "0.2.x",
     "react": "0.14.x",
-    "react-dom": "0.14.x"
+    "react-dom": "0.14.x",
+    "redux-router": "^0.1.0"
   },
   "devDependencies": {
     "dora": "0.3.x",
-    "dora-plugin-webpack": "0.5.x",
     "dora-plugin-hmr": "0.4.x",
     "dora-plugin-livereload": "0.3.x",
     "dora-plugin-proxy": "0.6.x",
+    "dora-plugin-webpack": "0.5.x",
     "eslint": "2.x",
     "eslint-config-airbnb": "6.x",
     "eslint-plugin-react": "4.x",
-    "pre-commit": "1.x"
+    "pre-commit": "1.x",
+    "react-router": "^2.0.1"
   },
   "pre-commit": [],
   "scripts": {

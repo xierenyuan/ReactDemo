@@ -1,6 +1,7 @@
-import '../common/lib';
-import App from '../component/App';
-import ReactDOM from 'react-dom';
 import React from 'react';
+import ReactDOM from 'react-dom';
+import {Router, browserHistory } from 'react-router';
+import '../common/lib';
+import routes from '../common/routes';
 
-ReactDOM.render(<App />, document.getElementById('react-content'));
+ReactDOM.render( <Router history={browserHistory} routes={routes} />, document.getElementById('app'));

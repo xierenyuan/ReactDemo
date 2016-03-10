@@ -1,7 +1,9 @@
 import React from 'react';
 import { DatePicker, message } from 'antd';
+import { Link } from 'react-router';
 import './App.less';
 import Detail from './detail.jsx';
+
 
 const App = React.createClass({
   getInitialState(){
@@ -20,6 +22,7 @@ const App = React.createClass({
       <DatePicker onChange={this.handleChange}/>
       <div style={{ marginTop:20 }}>当前日期 {this.state.date.toString()}</div>
       <Detail />
+      <Link to="/from">表单</Link>
     </div>
   }
 });
