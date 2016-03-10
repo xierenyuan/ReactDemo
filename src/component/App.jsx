@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { DatePicker,message } from 'antd';
+import React from 'react';
+import { DatePicker, message } from 'antd';
 import './App.less';
-import  Detail from  './detail.jsx';
+import Detail from './detail.jsx';
 
 const App = React.createClass({
   getInitialState(){
