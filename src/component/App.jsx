@@ -23,6 +23,7 @@ const App = React.createClass({
       <div style={{ marginTop:20 }}>当前日期 {this.state.date.toString()}</div>
       <Detail />
       <Link to="/from">表单</Link>
+      {this.props.children}
     </div>
   }
 });

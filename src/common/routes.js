@@ -9,8 +9,8 @@ import App from '../component/App';
 import Demo from '../component/From';
 
 const routes = (
-    <Route component={App} path="/">
-        <IndexRoute component={App} />
+    <Route>
+        <Route component={App} path="/"/>
         <Route component={Demo} path="from"/>
     </Route>
 );
